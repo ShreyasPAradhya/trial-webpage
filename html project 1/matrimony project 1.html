@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+    
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <img src="Picture1.PNG" style="float: left;
+   padding-right: 0%;
+   "> 
+    <h1 style="font-family: cursive;
+    color: red;
+    font-size: 300%;
+    padding-top: 4%;">
+        Shreyas Matrimony
+        
+    </h1>
+    
+    
+    <style>
+        ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: none;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgba(46, 39, 25, 0.4);
+}
+        body {
+            background-image: url('https://i.ibb.co/fXKRBvT/mat.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+        
+        
+    </style>
+<ul style="font-size: 120%;">
+  <li><a href="#home" stye='color: red'>Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>    
+</head>
+<body>
+    
+    <div style="background-color: rgba(131, 122, 120, 0.5);">
+        <p style="font-size: 200%;
+        font: 150%;
+        padding: 20px;" >
+
+            Name:
+            <input type="text" id="name" name="name"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;">
+            <br><br>Age:
+            <input type="number" id="age" name="age"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;"><br><br>
+            Sex:
+            <input type="radio" id='male' name="gender" value='male'>
+            <label for="male"> Male</label>
+            <input type="radio" id='female' name="gender" value='female'>
+            <label for="male"> Female</label>
+            <input type="radio" id='other' name="gender" value='other'>
+            <label for="male"> Other</label>
+            <br><br>
+            Residence:<input type="text" id="age" name="age"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;"><br><br>
+            Mother tongue:<input type="text" id="age" name="age"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;"><br><br>
+            Height:<input type="number" id="age" name="age"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;"><br><br>
+            Weight:<input type="number" id="age" name="age"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;"><br><br>
+            Education:<input type="text" id="age" name="age"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;"><br><br>
+            portfolio:<input type="text" id="age" name="age"
+            style="border: solid rgb(37, 33, 33, o.1);
+            background-color: rgb(41, 41, 35, 0.3);
+            color: #ffff;"><br><br>
+          <form action="upload.php" method="post" enctype="multipart/form-data"
+          style="color: khaki;">
+            Select image to upload:
+            <input type="file" name="fileToUpload" id="fileToUpload">
+            <input type="submit" value=" " name="submit">
+          </form>
+
+        </p>
+    </div>
+</body>
+
+</html>
